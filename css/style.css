@@ -29,9 +29,7 @@
   font-family: 'benzin-regular';
   src: url('/fonts/Benzin-Regular.ttf');
 }
-*{
-  background: #181818;
-}
+
 body {
   background: #fff;
   color: #2f3138;
@@ -157,7 +155,7 @@ h3 {
 }
 
 .section-with-bg {
-  background-color: #181818;
+  background-color: #f6f7fd;
 }
 
 /*--------------------------------------------------------------
