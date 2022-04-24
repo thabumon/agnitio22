@@ -35,6 +35,17 @@
   <!-- Main Stylesheet File -->
   <link href="./css/style.css" rel="stylesheet">
 
+  <!--===timer============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+  <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+  <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/countdowntime/flipclock.css">
+  <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/util.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+
 </head>
 
 <body>
@@ -92,14 +103,21 @@
             <h2>About The Event</h2>
             <p>The Department of Computer science and engineering in collaboration with Student association MATRICS of MES College of Engineering, Kuttippuram is organizing the signature event AGNITIO'22 that provides a platform for students to tap their potential and unravel their quiescent talents. Students from various backgrounds and cultures will get an opportunity to interact and appreciate one and other. It will bestow students with an unforgettable learning experience as AGNITIO'22 offers a whole gamut of events.</p>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-6">
+          <div class="col-lg-6">
             <h3>Where</h3>
             <p>MES College of Enineering, Kuttippuram</p>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-6">
             <h3>When</h3>
-            <p>Friday to Sunday<br>20-22 May 2022</p>
+            <p>Friday to Sunday<br>20 - 22 May 2022</p>
           </div>
+          <div class="col-lg-">
+            <h3># ready to be Agnified</h3>
+            <div class="cd100"></div>
+          </div>
+           
+        </div>
         </div>
       </div>
     </section>
@@ -126,7 +144,7 @@
 		              </a>
 		              <div class="text border border-top-0 p-4">
 		                <h3 class="heading"><a href="#">Conference</a></h3>
-		                <p>For all the brilliant researchers out there, we are hear with an exciting opportunity to showcase your research papers and present your works this AGNITIO'22. show your Effort to the world. </p>
+		                <p>For all the brilliant researchers out there, we have an exciting opportunity to showcase your research papers and present your works this AGNITIO'22. show your Effort to the world. </p>
 		                <div class="d-flex align-items-center mt-4">
 							<a href="#" class="about-btn scrollto">Know More</a>
 			                <p class="ml-auto meta2 mb-0">
@@ -242,7 +260,7 @@
 		              </a>
 		              <div class="text border border-top-0 p-4">
 		                <h3 class="heading"><a href="#">Workshop 4</a></h3>
-		                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.when an unknown printer took a galley of type and scrambled it to make a type specimen book ,come and join with us	</p>
+		                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.when an galley of type and scrambled it to make a type specimen book ,come and join with us	</p>
 		                <div class="d-flex align-items-center mt-4">
 			                <a href="#" class="about-btn scrollto">Know More</a>
 			                <p class="ml-auto meta2 mb-0">
@@ -1152,6 +1170,45 @@
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/owl.carousel.min.js"></script>
     <script src="./js/main1.js"></script>
+
+<!-- Timer -->
+<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/flipclock.min.js"></script>
+	<script src="vendor/countdowntime/moment.min.js"></script>
+	<script src="vendor/countdowntime/moment-timezone.min.js"></script>
+	<script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+	<script>
+		$('.cd100').countdown100({
+			/*Set Endtime here*/
+			/*Endtime must be > current time*/
+			endtimeYear: 2022,
+			endtimeMonth: 05,
+			endtimeDate: 20,
+			endtimeHours: 02,
+			endtimeMinutes: 00,
+			endtimeSeconds: 00,
+			timeZone: "Asia/Colombo" 
+			// ex:  timeZone: "America/New_York"
+			//go to " http://momentjs.com/timezone/ " to get timezone
+		});
+
+		
+	</script>
+<!--===============================================================================================-->
+	<script src="vendor/tilt/tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
 </body>
 
 </html>
