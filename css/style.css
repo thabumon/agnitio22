@@ -1,33 +1,32 @@
-/*
-  Theme Name: TheEvent
-  Theme URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+@font-face {
+  font-family: 'Benzin-Extra-Bold';
+  src: url('../fonts/Benzin-Extra-Bold.ttf');
+}
+
 @font-face {
   font-family: 'benzin-bold';
-  src: url('/fonts/Benzin-Bold.ttf');
+  src: url('../fonts/Benzin-Bold.ttf');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'poppins-regular';
-  src: url('/fonts/Poppins-Regular.ttf');
+  src: url('../fonts/Poppins-Regular.ttf');
 }
 
 @font-face {
   font-family: 'benzin-medium';
-  src: url('/fonts/Benzin-Medium.ttf');
+  src: url('../fonts/Benzin-Medium.ttf');
 }
 
 @font-face {
   font-family: 'benzin-regular';
-  src: url('/fonts/Benzin-Regular.ttf');
+  src: url('../fonts/Benzin-Regular.ttf');
 }
 
 body {
@@ -528,7 +527,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro h1 {
   color: #fff;
-  font-family: "benzin-bold", sans-serif;
+  font-family: "Benzin-Extra-Bold", sans-serif;
   font-size: 56px;
   /* font-weight: 600; */
   text-transform: uppercase;
