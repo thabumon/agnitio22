@@ -10,8 +10,7 @@
 --------------------------------------------------------------*/
 @font-face {
   font-family: 'benzin-bold';
-  src: url('/fonts/Benzin Extra Bold.ttf'),
-       url('/fonts/Benzin Extra Bold.ttf'));
+  src: url('/fonts/Benzin Extra Bold.ttf');
   font-weight: normal;
   font-style: normal;
 }
