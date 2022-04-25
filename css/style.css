@@ -41,9 +41,12 @@ a {
 }
 
 a:hover,
-a:active,
-a:focus {
+a:active{
+
   color: #f8234a;
+}
+a:focus {
+  color: #3eac35;
   outline: none;
   text-decoration: none;
 }
@@ -61,7 +64,7 @@ h4,{
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
-  color: #28282b;
+  color: #f6f7fd;
 }
 
 .main-page {
@@ -1163,7 +1166,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #faq #faq-list a.collapsed {
-  color: #000;
+  color: #f6f7fd;
 }
 
 #faq #faq-list a.collapsed i::before {
