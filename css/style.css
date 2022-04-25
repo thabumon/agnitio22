@@ -55,7 +55,8 @@ p {
 
 h1,
 h2,
-h3 {
+h3,
+h4,{
   font-family: "benzin-regular", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
@@ -185,7 +186,7 @@ h3 {
   margin: 0;
   padding: 6px 0;
   line-height: 1;
-  font-family: "Raleway", sans-serif;
+  font-family:benzin-regular, sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -260,7 +261,7 @@ h3 {
   content: "\f107";
   position: absolute;
   right: 15px;
-  font-family: FontAwesome;
+  font-family:benzin-regular;
   font-style: normal;
   font-weight: normal;
 }
