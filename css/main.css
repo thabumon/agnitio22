@@ -103,7 +103,7 @@
   position: relative;
   float: unset;
   margin: 2px;
-  width: 41px;
+  width: 2vw;
   height: 54px;
   font-size: 36px;
   font-weight: unset;
@@ -222,9 +222,9 @@
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 100%) {
   .flip-clock-wrapper {
-    max-width: 240px;
+    max-width: 100%;
     margin-right: 26px;
   }
 

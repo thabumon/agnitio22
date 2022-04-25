@@ -20,6 +20,11 @@
 }
 
 @font-face {
+  font-family: 'poppins-bold';
+  src: url('../fonts/Poppins-Bold.ttf');
+}
+
+@font-face {
   font-family: 'benzin-medium';
   src: url('../fonts/Benzin-Medium.ttf');
 }
@@ -30,7 +35,6 @@
 }
 
 body {
-  background: #181818;
   color: #2f3138;
   font-family: "poppins-regular", sans-serif;
 }
@@ -58,13 +62,11 @@ p {
 
 h1,
 h2,
-h3,
-h4,{
+h3{
   font-family: "benzin-regular", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
-  color: #f6f7fd;
 }
 
 .main-page {
@@ -811,6 +813,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 10px;
 }
 
+#speakers .item .about-btn{
+  color: #3eac35;
+}
+
 /*--------------------------------------------------------------
 # Schedule Section
 --------------------------------------------------------------*/
@@ -1166,7 +1172,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #faq #faq-list a.collapsed {
-  color: #f6f7fd;
+  color: #000000;
 }
 
 #faq #faq-list a.collapsed i::before {
@@ -1444,10 +1450,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-info p {
-  font-size: 14px;
+  font-weight: 100;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "poppins-regular", sans-serif;
   color: #fff;
 }
 
@@ -1497,8 +1503,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 18px;
 }
 
+h4{
+  font-weight: 'poppins-bold';
+}
+
 #footer .footer-top .footer-links ul li {
   border-bottom: 1px solid #262c44;
+  font-weight: 100;
   padding: 10px 0;
 }
 
@@ -1519,6 +1530,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-contact p {
+  font-family: "poppins-regular", sans-serif;
+  font-weight: 100;
   line-height: 26px;
 }
 
@@ -1650,7 +1663,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #faq #faq-list a {
-    font-size: 18px;
+    font-family: 'poppins-bold', sans-serif;
+  }
+ 
+  #faq #faq-list p {
+    font-family: 'poppins-regular', sans-serif;
+    font-size: small;
+    font-weight: 100;
   }
 
   #faq #faq-list i {
