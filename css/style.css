@@ -1192,6 +1192,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 # Subscribe Section
 --------------------------------------------------------------*/
 
+.accordion-button:not(.collapsed) {
+  color: black;
+  background-color: #e9ffe7;
+  box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
 #subscribe {
   padding: 60px;
   background: url(../img/subscribe-bg.jpg) center center no-repeat;
