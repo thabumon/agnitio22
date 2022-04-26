@@ -8205,12 +8205,12 @@ h1, h2, h3, h4, h5,
       height: 10px;
       margin: 5px;
       border-radius: 50%;
-      background: rgba(0, 0, 0, 0.1);
+      background: gray;
       position: relative; }
       .owl-carousel .owl-dots .owl-dot:hover, .owl-carousel .owl-dots .owl-dot:focus {
         outline: none !important; }
       .owl-carousel .owl-dots .owl-dot.active {
-        background: #3eac35; }
+        background: white; }
   .owl-carousel:hover .owl-nav .owl-prev,
   .owl-carousel:hover .owl-nav .owl-next {
     opacity: 1; }

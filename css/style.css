@@ -35,6 +35,7 @@
 }
 
 body {
+  background-color: #181818;
   color: #2f3138;
   font-family: "poppins-regular", sans-serif;
 }
@@ -63,6 +64,7 @@ p {
 h1,
 h2,
 h3{
+  color: #e0e5fa;
   font-family: "benzin-regular", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
@@ -1051,7 +1053,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #gallery .owl-nav,
-#gallery .owl-dots {
+#gallery .ts {
   margin-top: 25px;
   text-align: center;
 }
@@ -1164,6 +1166,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #faq #faq-list p {
+  color: white;
   margin-bottom: 20px;
 }
 
@@ -1172,7 +1175,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #faq #faq-list a.collapsed {
-  color: #000000;
+  color: #e0e5fa;
 }
 
 #faq #faq-list a.collapsed i::before {
@@ -1283,6 +1286,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 10px 40px;
   transition: all 0.2s;
   background-color: #3eac35;
+  border: 0;
+  color: #fff;
+}
+
+.btn-sunfest{
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 10px 40px;
+  transition: all 0.2s;
+  background: gray;
   border: 0;
   color: #fff;
 }
